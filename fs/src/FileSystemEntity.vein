@@ -1,0 +1,19 @@
+#use "vein/lang"
+
+#space "vein/lang/fs"
+
+
+public abstract class FileSystemEntity
+{
+    protected fullPath: string;
+    protected originalPath: string;
+
+    public virtual fullName: string  { get; }
+    public extension: string;
+    public abstract isExists: boolean { get; }
+    public abstract name: string { get; }
+
+
+
+    public abstract remove(): void;
+}

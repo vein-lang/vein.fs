@@ -1,0 +1,20 @@
+#use "vein/lang"
+
+#space "vein/lang/fs/sys"
+
+public static class FsLinux
+{
+    [native("i_call_FsLinux_delete_directory")]
+    public extern delete_directory(path: string, recursive: boolean): void;
+    [native("i_call_FsLinux_create_directory")]
+    public extern create_directory(path: string): void;
+    [native("i_call_FsLinux_move_directory")]
+    public extern move_directory(old: string, new: string): void;
+
+    [native("i_call_FsLinux_create_empty_file")]
+    public extern create_empty_file(path: string): void;
+    [native("i_call_FsLinux_write_all_file")]
+    public extern write_all_file(path: string, content: string): void;
+    [native("i_call_FsLinux_read_all_file")]
+    public extern read_all_file(path: string): string;
+}

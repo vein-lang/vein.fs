@@ -1,0 +1,9 @@
+#use "vein/lang"
+
+#space "vein/lang/fs"
+
+
+public class FileInfo 
+{
+    
+}

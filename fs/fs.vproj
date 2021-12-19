@@ -1,5 +1,5 @@
 description: A file system api for vein lang
-version: 0.0.1
+version: 0.0.2
 author:
 - name: Yuuki Wesp
   github: 0xF6
@@ -9,3 +9,6 @@ license: MIT license
 packable: true
 packages:
 - std@0.12.2
+- ./../fs.linux/fs.linux.vproj
+- ./../fs.osx/fs.osx.vproj
+- ./../fs.windows/fs.windows.vproj

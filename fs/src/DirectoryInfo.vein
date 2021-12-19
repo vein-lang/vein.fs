@@ -1,0 +1,28 @@
+#use "vein/lang"
+
+#space "vein/lang/fs"
+
+
+public class DirectoryInfo : FileSystemEntity
+{
+    //new(path: string) 
+    //    |> _init(path, vpath.getFullPath(path), true);
+    
+    public override name: string;
+    public override isExist: boolean 
+        |> true;
+
+    public parent: DirectoryInfo { get; }
+    public root: DirectoryInfo { get; }
+
+
+    public override remove(): void 
+    {
+
+    }
+
+    public create(): void
+    {
+
+    }
+}
