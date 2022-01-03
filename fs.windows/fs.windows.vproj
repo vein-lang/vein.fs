@@ -1,5 +1,5 @@
 description: A provider fs api for windows
-version: 0.0.0
+version: 0.0.1
 packable: true
 author:
 - name: Yuuki Wesp
@@ -8,4 +8,4 @@ author:
   github: vein-lang
 license: MIT license
 packages:
-- std@0.12.2
+- std@0.12.9
